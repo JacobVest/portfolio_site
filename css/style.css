@@ -1,0 +1,121 @@
+h1,
+nav a,
+h2 {
+  font-family: "Megrim";
+}
+
+.background_img {
+  background-color: black;
+}
+
+h3,
+h4,
+h5,
+p {
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+}
+footer {
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 75px;
+}
+h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: white;
+  padding: 10px;
+}
+
+h4 {
+  font-size: 2rem;
+}
+h5 {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.beskrivelse h5 {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.7rem;
+}
+
+h4:hover {
+  color: #ee8806;
+}
+
+header a {
+  font-size: 1.5rem;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+
+li a:hover {
+  color: #ee8806;
+  scale: 105%;
+}
+
+.li_bund a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #ee8806;
+  font-size: 1.5rem;
+}
+
+.li_bund a:hover {
+  border-right: 2px solid #ee8806;
+  border-left: 2px solid #ee8806;
+}
+
+.vertical_text {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  line-height: 1;
+}
+
+.temaer {
+  background-color: #bdaf91;
+  box-shadow: 0 0 20px 5px black;
+}
+
+.temaer:hover {
+  scale: 105%;
+}
+
+.emne_undersite_1 {
+  background-color: #bdaf91;
+}
+
+.emne_undersite_2 {
+  background-color: beige;
+}
+
+.img_column img {
+  box-shadow: 0 0 15px 10px black;
+  max-width: 75%;
+}
+
+/* .grid_cv {
+  background-color: beige;
+} */
+
+.grid_cv h1 {
+  font-size: 7rem;
+}
+
+.cv_container {
+  background-color: #bdaf91;
+  border: 1px solid black;
+}
