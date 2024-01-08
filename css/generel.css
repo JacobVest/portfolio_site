@@ -132,11 +132,18 @@ footer {
   margin: 10px auto;
 }
 
+.flex_knapper {
+  display: flex;
+}
+
 .img_column {
   display: flex;
   flex-direction: column;
   margin: auto;
   object-fit: cover;
+}
+.img_flex {
+  display: flex;
 }
 
 /* om mig */
@@ -213,8 +220,6 @@ footer {
   }
 
   .grid_undersite {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
     margin: 30px;
   }
   .grid_undersite .emne_undersite_1,

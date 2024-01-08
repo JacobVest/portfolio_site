@@ -11,10 +11,12 @@ h2 {
 h3,
 h4,
 h5,
-p {
+p,
+a {
   font-family: "Josefin Sans", sans-serif;
   color: black;
 }
+
 footer {
   background-color: black;
 }
@@ -40,6 +42,29 @@ h4 {
 h5 {
   font-size: 1.5rem;
   font-style: italic;
+}
+
+button {
+  text-decoration: none;
+  background-color: white;
+  padding: 5px;
+  border-radius: 20px;
+  display: block;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 20px 5px;
+}
+
+button a {
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: black;
+  scale: 110%;
+}
+button a:hover {
+  color: white;
 }
 
 .beskrivelse h5 {
@@ -98,13 +123,19 @@ li a:hover {
   background-color: #bdaf91;
 }
 
+.tekst_undersite p {
+  font-size: 1.5rem;
+  padding: 5px;
+  line-height: 1.7rem;
+}
+
 .emne_undersite_2 {
   background-color: beige;
 }
 
 .img_column img {
   box-shadow: 0 0 15px 10px black;
-  max-width: 75%;
+  max-width: 60%;
 }
 
 /* .grid_cv {
