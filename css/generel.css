@@ -56,7 +56,7 @@ li a {
 /* body forside {
 } */
 .background_img {
-  background-image: url(/img/baggrund_forside.webp);
+  background-image: url(../img/baggrund_forside.webp);
   background-size: 300%;
   background-repeat: no-repeat;
 }
