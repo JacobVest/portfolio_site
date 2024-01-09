@@ -123,14 +123,21 @@ li a:hover {
   background-color: #bdaf91;
 }
 
+.emne_undersite_2 {
+  background-color: beige;
+}
+
+.emne_undersite_3 {
+  background-color: #bdaf91;
+}
+.emne_undersite_3 {
+  text-align: center;
+}
+
 .tekst_undersite p {
   font-size: 1.5rem;
   padding: 5px;
   line-height: 1.7rem;
-}
-
-.emne_undersite_2 {
-  background-color: beige;
 }
 
 .img_column img {
@@ -139,10 +146,6 @@ li a:hover {
 .img_flex img {
   box-shadow: 0 0 15px 10px black;
 }
-
-/* .grid_cv {
-  background-color: beige;
-} */
 
 .grid_cv h1 {
   font-size: 7rem;
