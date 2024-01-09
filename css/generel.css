@@ -44,6 +44,7 @@ li a {
   background-color: black;
   z-index: 1;
   right: 490px;
+  list-style-type: none;
 }
 
 .dropdown_indhold a {
