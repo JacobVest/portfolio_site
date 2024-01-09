@@ -143,6 +143,10 @@ iframe {
   max-width: 100%;
 }
 
+.emne_undersite_3 {
+  padding: 30px;
+}
+
 /* om mig */
 
 .cv_container {
@@ -311,8 +315,8 @@ iframe {
     text-align: center;
     line-height: 1.5rem;
   }
-  .cv_broedtekst h5 {
-    border-bottom: 2px solid black;
-    padding: 10px;
+
+  .beskrivende_tekst {
+    padding-left: 50px;
   }
 }

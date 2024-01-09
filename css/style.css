@@ -53,16 +53,6 @@ h5 {
   max-width: fit-content;
 }
 
-.button {
-  text-decoration: none;
-}
-
-.button:hover {
-  background-color: black;
-  color: white;
-  scale: 110%;
-}
-
 .beskrivelse h5 {
   font-size: 1.5rem;
   font-style: italic;
@@ -150,4 +140,17 @@ li a:hover {
 .cv_container {
   background-color: #bdaf91;
   border: 1px solid black;
+}
+
+.cv_broedtekst h5 {
+  border-bottom: 2px solid black;
+  padding: 10px;
+}
+
+.beskrivende_tekst {
+  margin: 40px;
+  max-width: 80%;
+}
+.beskrivende_tekst h5 {
+  padding: 10px 0;
 }
