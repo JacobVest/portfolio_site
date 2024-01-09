@@ -21,6 +21,7 @@ header a {
 ul {
   display: flex;
   margin: auto;
+  padding: 10px;
 }
 li {
   margin: auto;
@@ -44,10 +45,6 @@ li a {
   z-index: 1;
 }
 
-.dropdown:hover .dropdown_indhold {
-  display: block;
-}
-
 .dropdown_indhold a {
   color: white;
   padding: 20px 20px;
@@ -63,7 +60,6 @@ li a {
 } */
 .background_img {
   background-image: url(/img/baggrund_forside.webp);
-  width: 100% auto;
   background-size: 300%;
   background-repeat: no-repeat;
 }
@@ -117,8 +113,7 @@ footer {
 }
 
 .tekst_undersite {
-  padding: 5px;
-  align-self: center;
+  padding: 30px;
 }
 .tekst_undersite h2 {
   text-align: center;
@@ -141,9 +136,13 @@ footer {
   flex-direction: column;
   margin: auto;
   object-fit: cover;
+  padding: 10px 0;
 }
-.img_flex {
-  display: flex;
+.img_column img {
+  max-width: 80%;
+}
+iframe {
+  max-width: 100%;
 }
 
 /* om mig */
@@ -156,6 +155,8 @@ footer {
 
 .img_cv {
   border: 1px solid black;
+  max-width: 75%;
+  margin: auto;
 }
 
 .billede_navn {
@@ -164,7 +165,6 @@ footer {
 }
 .fakta_flex {
   display: flex;
-  padding: 20px;
   justify-content: space-between;
 }
 
@@ -175,10 +175,19 @@ footer {
 
 /* DESKTOP */
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
+  /* forside og generelt */
   .background_img {
     background-size: 110%;
   }
+
+  ul {
+    padding: 1px;
+  }
+  .dropdown:hover .dropdown_indhold {
+    display: block;
+  }
+
   .grid_forside {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -212,12 +221,15 @@ footer {
     justify-content: center;
   }
 
+  /* portfolio */
   .grid_portfolio {
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 850px;
     margin: 20px auto;
   }
+
+  /* portfolio undersider */
 
   .grid_undersite {
     margin: 30px;
@@ -231,8 +243,21 @@ footer {
 
   .tekst_undersite {
     max-width: 600px;
+    align-self: center;
   }
 
+  .img_column img {
+    max-width: 90%;
+  }
+  iframe {
+    height: 300px;
+  }
+
+  .img_flex {
+    display: flex;
+  }
+
+  /* Om mig */
   .grid_cv {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -262,7 +287,9 @@ footer {
   }
   .fakta_flex {
     display: flex;
+    padding: 20px;
     justify-self: center;
+    margin: auto;
   }
 
   .cv_broedtekst {

@@ -44,7 +44,7 @@ h5 {
   font-style: italic;
 }
 
-button {
+.button {
   text-decoration: none;
   background-color: white;
   padding: 5px;
@@ -53,18 +53,18 @@ button {
   font-size: 1rem;
   text-transform: uppercase;
   margin: 20px 5px;
+  border: 1px solid black;
+  max-width: fit-content;
 }
 
-button a {
+.button {
   text-decoration: none;
 }
 
-button:hover {
+.button:hover {
   background-color: black;
-  scale: 110%;
-}
-button a:hover {
   color: white;
+  scale: 110%;
 }
 
 .beskrivelse h5 {
@@ -135,7 +135,9 @@ li a:hover {
 
 .img_column img {
   box-shadow: 0 0 15px 10px black;
-  max-width: 60%;
+}
+.img_flex img {
+  box-shadow: 0 0 15px 10px black;
 }
 
 /* .grid_cv {
